@@ -1,24 +1,17 @@
 {
-  "name": "@vitest/example-test",
-  "type": "module",
-  "private": true,
-  "license": "MIT",
-  "main": "index.js",
+  "name": "vitest-crash-reproduction",
+  "version": "0.0.0",
+  "private": "true",
+  "sideEffects": false,
   "scripts": {
-    "test": "vitest",
-    "test:ui": "vitest --ui",
-    "test:run": "vitest run"
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@prisma/client": "^4.12.0",
+    "typescript": "^4.9.4"
   },
   "devDependencies": {
-    "@types/node": "^18.15.11",
-    "@vitest/ui": "latest",
     "prisma": "^4.12.0",
-    "ts-node": "^10.9.1",
-    "typescript": "^5.0.2",
-    "vite": "latest",
-    "vitest": "latest"
-  },
-  "stackblitz": {
-    "startCommand": "npm run test:ui"
+    "vitest": "^0.29.8"
   }
 }

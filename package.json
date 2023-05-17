@@ -7,11 +7,11 @@
     "test": "vitest"
   },
   "dependencies": {
-    "@prisma/client": "^4.12.0",
+    "@prisma/client": "^4.14.0",
     "typescript": "^4.9.4"
   },
   "devDependencies": {
-    "prisma": "^4.12.0",
-    "vitest": "^0.29.8"
+    "prisma": "^4.14.0",
+    "vitest": "^0.31.0"
   }
 }

@@ -4,14 +4,13 @@
   "private": "true",
   "sideEffects": false,
   "scripts": {
-    "test": "vitest"
+    "start": "RUST_BACKTRACE=full DEBUG='*' node index.mjs"
   },
   "dependencies": {
-    "@prisma/client": "^4.12.0",
+    "@prisma/client": "^4.14.1",
     "typescript": "^4.9.4"
   },
   "devDependencies": {
-    "prisma": "^4.12.0",
-    "vitest": "^0.29.8"
+    "prisma": "^4.14.1"
   }
 }
